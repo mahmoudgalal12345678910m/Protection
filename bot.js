@@ -1,8 +1,7 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "-"
-
-client.user.setGame('Mal الحامى لسيرفر ','https://www.twitch.tv/sytra_ayman');
+client.on('ready', () => {
+client.user.setGame(' Mal , Safe ','https://www.twitch.tv/sytra_ayman');
   console.log(`Logged in as ${client.user.tag}!`);
   });
   /*جميع الحقوق محفوظهه لريبل ولسيرفر كودز
@@ -111,16 +110,10 @@ if(member.user.bot) {
 member.user.ban();
 let c = member.guild.channels.find(r => r.name === "chat");
 if(c) return;
-if(c) return c.send(`:no_entry: | Banned ${member} , Reason: \``AntiBots - Protection\``);
+if(c) return c.send(`:no_entry: | Banned ${member} , Reason: \`AntiBots - Protection\``);
 }
 });
 
-
-
-
-
-
-
-
+//ِ. Àymmaann ~ $#9813
 
 client.login(process.env.BOT_TOKEN);
