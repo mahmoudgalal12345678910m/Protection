@@ -111,7 +111,7 @@ if(member.user.bot) {
 member.user.ban();
 let c = member.guild.channels.find(r => r.name === "chat");
 if(c) return;
-if(c) return c.send(`:no_entry: | Banned ${member} , Reason: \`AntiBots - Protection\``);
+if(c) return c.send(`:no_entry: | Banned ${member} , Reason: \``AntiBots - Protection\``);
 }
 });
 
